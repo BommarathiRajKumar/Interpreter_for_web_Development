@@ -1,0 +1,25 @@
+<html>
+<head>
+   <script src="main.js"></script>
+	<link rel="stylesheet" href="main.css">
+</head>
+  <body>
+		<iframe id="outPutFrameId" style="width: 50%;"></iframe>
+		<textarea id="inPutAreaId" oninput="outPUT()"></textarea>
+		
+		<div id="headerDivId" >
+				<div id="conOutPutId" style="color: #80ffff; position: absolute; top: 13px; left: 245px"><strong>CONSOLE-OUTPUT</strong></div>
+				
+				<button id="fullScreenButtonId" class="buttonAndInput"  style="position:absolute; top: 11px; left:650px;"  onclick="fullScreenButton()">FullScreen</button>
+				
+				<button id="fileButtonId" class="buttonAndInput" style="position:absolute; top: 11px; left:800px;" onclick="fileButton()">File</button>
+				
+				<input id="fileNameBoxId" class="buttonAndInput" style="display:none;position:absolute;top:11px; left:870px;" size="10.5" type="text"  value = "fileName.html";>
+				
+				<button id="saveFileButtonId" class="buttonAndInput" style="display:none; position: absolute; top:11px;left:986px;" onclick="saveFile()">SaveFile</button>
+ 		       
+				<div id="consoleId" style="color: rgb(255,95,17); position: absolute; top:13px; left:1140px"><strong>CONSOLE</strong></div>
+
+		</div>
+  </body>
+</html>
